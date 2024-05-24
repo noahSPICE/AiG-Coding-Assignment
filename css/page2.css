@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-rows: 100px, 100px, 100px;
+    grid-template-columns: 240px 240px 240px;
+    align-items: top;
+    justify-content: center;
+    text-align: justify;
+}
+
+.big-O {
+    font-size: xxx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.red-text {
+    color: red;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.bold-text {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.par-1 {
+    font-size: 15px;
+    padding: 10px
+}
+
+.par-2 {
+    font-size: 15px;
+    padding: 10px
+}
+
+.par-3 {
+    font-size: 15px;
+    padding: 10px
+}
+
+img {
+  height: auto;
+  width: 500px;
+}
+
+.par-4 {
+    grid-area: 2 / 3 / 3 / 2;
+}

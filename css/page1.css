@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-image: url(/images/Cosmos.webp);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.background {
+  flex: 1; 
+  display: flex;
+}
+
+.yellow-square {
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.page-info {
+    display: flex;
+    justify-content: end;
+    margin: 25vh;
+    margin-left: 70vw;
+    align-items: top;
+}
+
+.bottom {
+    display: flex;
+  justify-content: space-between; /* Distribute space between child elements */
+  align-items: center;;
+  padding: 2rem;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+h6 {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h5 {
+    font-weight: 100;
+}
+
+.number-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 300;
+}
